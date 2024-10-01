@@ -1,6 +1,6 @@
 Package: fasterize
 Title: Fast Polygon to Raster Conversion
-Version: 1.0.5
+Version: 1.1.0
 Authors@R: c(
     person("Noam", "Ross", , "ross@ecohealthalliance.org",
            role = c("aut"),
@@ -20,9 +20,8 @@ Description: Provides a drop-in replacement for rasterize() from the 'raster'
 License: MIT + file LICENSE
 URL: https://github.com/ecohealthalliance/fasterize
 BugReports: https://github.com/ecohealthalliance/fasterize/issues
-RoxygenNote: 7.2.3
-Suggests: testthat, microbenchmark, knitr, rmarkdown, sf, spelling,
-        geos
+RoxygenNote: 7.3.2
+Suggests: testthat, microbenchmark, knitr, rmarkdown, spelling, geos
 Depends: R (>= 3.3.0)
 Imports: Rcpp, raster (>= 2.8-3), wk
 LinkingTo: Rcpp, RcppArmadillo
@@ -30,7 +29,7 @@ Encoding: UTF-8
 VignetteBuilder: knitr
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2023-11-05 02:23:29 UTC; mdsumner
+Packaged: 2024-10-01 06:18:41 UTC; mdsumner
 Author: Noam Ross [aut] (Original author,
     <https://orcid.org/0000-0002-2136-0000>),
   Michael Sumner [cre, ctb] (<https://orcid.org/0000-0002-2471-7511>),
@@ -40,4 +39,4 @@ Author: Noam Ross [aut] (Original author,
   USAID PREDICT [fnd]
 Maintainer: Michael Sumner <mdsumner@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-11-05 05:50:06 UTC
+Date/Publication: 2024-10-01 13:30:02 UTC
